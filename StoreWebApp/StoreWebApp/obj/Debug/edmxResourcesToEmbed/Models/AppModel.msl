@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OctoSQLBaseModelStoreContainer" CdmEntityContainer="OctoSQLBaseEntities">
+    <EntitySetMapping Name="AppBinary">
+      <EntityTypeMapping TypeName="OctoSQLBaseModel.AppBinary">
+        <MappingFragment StoreEntitySet="AppBinary">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="File" ColumnName="File" />
+          <ScalarProperty Name="IdApp" ColumnName="IdApp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AppRegister">
+      <EntityTypeMapping TypeName="OctoSQLBaseModel.AppRegister">
+        <MappingFragment StoreEntitySet="AppRegister">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PlatformType" ColumnName="PlatformType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

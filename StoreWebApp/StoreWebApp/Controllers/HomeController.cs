@@ -14,5 +14,10 @@ namespace StoreWebApp.Controllers
 
             return View();
         }
+
+        public ActionResult Upload()
+        {
+            return View();
+        }
     }
 }
