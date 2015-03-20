@@ -5,13 +5,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace StoreWebApp.Controllers.API
 {
+    [EnableCors(origins: "http://octostore.azurewebsites.net", headers: "*", methods: "*")]
     public class OctoAppController : ApiController
     {
-
-
         public IEnumerable<AppRegister> Get()
         {
             OctoSQLBaseEntities octoBase = new OctoSQLBaseEntities();

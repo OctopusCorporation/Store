@@ -61,3 +61,6 @@ C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\bin\System.Web.Http.Ow
 C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\obj\Debug\StoreWebApp.csprojResolveAssemblyReference.cache
 C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\obj\Debug\StoreWebApp.dll
 C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\obj\Debug\StoreWebApp.pdb
+C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\bin\System.Web.Cors.dll
+C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\bin\System.Web.Http.Cors.dll
+C:\Users\Camilo\Octopus Git\Store\StoreWebApp\StoreWebApp\bin\System.Web.Http.Cors.xml

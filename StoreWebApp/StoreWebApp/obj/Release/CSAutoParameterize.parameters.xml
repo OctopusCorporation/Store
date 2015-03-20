@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-StoreWebApp-20150319014402.mdf;Initial Catalog=aspnet-StoreWebApp-20150319014402;Integrated Security=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="c:\\users\\camilo\\documents\\visual\ studio\ 2015\\Projects\\StoreWebApp\\StoreWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Camilo\\Octopus\ Git\\Store\\StoreWebApp\\StoreWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="OctoSQLBaseEntities-Web.config Connection String" description="OctoSQLBaseEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.AppModel.csdl|res://*/Models.AppModel.ssdl|res://*/Models.AppModel.msl;provider=System.Data.SqlClient;provider connection string='data source=mwbwzwzj7s.database.windows.net;initial catalog=OctoSQLBase;persist security info=True;user id=octoadmin;password=&quot;5)14t#P31M ||[n&quot;;MultipleActiveResultSets=True;App=EntityFramework'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Camilo\\Octopus\ Git\\Store\\StoreWebApp\\StoreWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OctoSQLBaseEntities']/@connectionString" />
   </parameter>
 </parameters>
